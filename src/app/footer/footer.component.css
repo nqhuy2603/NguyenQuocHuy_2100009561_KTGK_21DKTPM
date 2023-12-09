@@ -1,0 +1,43 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #fff;
+}
+
+p, ul {
+    color: #ccc;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
